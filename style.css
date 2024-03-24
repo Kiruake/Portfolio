@@ -1,0 +1,82 @@
+/*
+Theme Name: PortfolioTheme
+Theme URI: https://ayrton-chaves.fr/wp-content/themes/PortfolioTheme/style.css
+Author: Ayrton CHAVES
+Author URI: https://ayrton-chaves.fr
+Description: Theme pour Potfolio    
+Requires at least: WordPress 5.0
+Version: 1.0
+*/
+
+/* Vos styles personnalisés vont ici */
+
+
+
+@font-face {
+  font-family: 'Metropolis';
+  src: url('fonts/Metropolis-Regular.otf') format('otf');
+}
+
+
+h1 {
+    font-size: 64px
+  }
+
+  h2 {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: lightgrey;
+    font-weight: 600;
+  }
+
+h4, h3 {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+  }
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+
+
+#des {
+  font-family: 'Metropolis', sans-serif;
+  font-size: 18px;
+  color: lightgrey;
+  line-height: 160%;
+  padding: 15px;
+  letter-spacing: 1px;
+  width: 90%;
+}
+
+
+#lienProjet {
+    font-family: 'Delmon';
+    font-size: 24px;
+    color: #922C44;
+    background-color: transparent;
+    border: 2px solid #922C44;
+    border-color: #922C44;
+    padding: 5px 10px;
+}
+
+#lienProjet:hover {
+    font-family: 'Delmon';
+    font-size: 24px;
+    color: #fff;
+    background-color: #922C44;
+    border: 2px solid #922C44;
+    border-color: #922C44;
+    padding: 5px 5px;
+}
+
+
+a:-webkit-any-link {
+    color: inherit;
+    text-decoration: none;
+  cursor: pointer;
+}
